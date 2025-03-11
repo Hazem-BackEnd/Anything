@@ -11,23 +11,19 @@ string NumberToString ( int Number )
     ss << Number;
     return ss.str();
 }
-int i=0;
 int main(int argc, char* argv[]) {
     int myrank , size;
     MPI_Init (&argc, &argv);
     MPI_Comm_rank (MPI_COMM_WORLD, &myrank);
     MPI_Comm_size (MPI_COMM_WORLD, &size);
-    string temp="";
-    int count=0;
-    if (myrank == 0){i=1;}
-    else{i=myrank*5+1;}
-    while (count<5) {
-        temp.append(NumberToString(i));
-        temp+=" ";
-        i++;
-        count++;
+    int n=8; // input at first , but when i do it , it give me random number every time
+    int start=(myrank * (n/size))+1;
+    int end=(myrank+1)*(n/size);
+    long long sum=0;
+    for (int i = start; i <= end; ++i) {
+        sum+=i;
     }
-    cout<<"Processor " << myrank << " display : "<<temp<<endl;
+    cout<<"Processor "<<myrank << " :  "<<"Sum : "<<sum<<endl;
     MPI_Finalize ();
     return 0;
 }
