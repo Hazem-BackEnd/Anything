@@ -1,0 +1,3 @@
+/home/zemonze/CLionProjects/Just_Files/cmake-build-debug/CMakeFiles/Just_Files.dir
+/home/zemonze/CLionProjects/Just_Files/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zemonze/CLionProjects/Just_Files/cmake-build-debug/CMakeFiles/rebuild_cache.dir

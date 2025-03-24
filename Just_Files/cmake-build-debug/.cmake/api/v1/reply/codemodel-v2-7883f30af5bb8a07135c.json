@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Dist_Lab_3",
+					"name" : "Just_Files",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Dist_Lab_3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Dist_Lab_3-Debug-b26988990b39e160e4da.json",
-					"name" : "Dist_Lab_3",
+					"id" : "Just_Files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Just_Files-Debug-cfdea71b82ac8caf26bf.json",
+					"name" : "Just_Files",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/zemonze/CLionProjects/Dist_Lab_3/cmake-build-debug",
-		"source" : "/home/zemonze/CLionProjects/Dist_Lab_3"
+		"build" : "/home/zemonze/CLionProjects/Just_Files/cmake-build-debug",
+		"source" : "/home/zemonze/CLionProjects/Just_Files"
 	},
 	"version" : 
 	{

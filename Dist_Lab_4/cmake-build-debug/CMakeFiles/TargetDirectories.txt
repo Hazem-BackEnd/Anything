@@ -1,0 +1,3 @@
+/home/zemonze/CLionProjects/Dist_Lab_4/cmake-build-debug/CMakeFiles/Dist_Lab_4.dir
+/home/zemonze/CLionProjects/Dist_Lab_4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zemonze/CLionProjects/Dist_Lab_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
